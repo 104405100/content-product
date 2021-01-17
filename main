@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>content product</title>
+</head>
+<style>
+    body {
+        background-color: #f2f2f2;
+
+    }
+
+    .paper {
+        max-width: 80%;
+        margin: auto;
+        background: white;
+        padding: 10px;
+    }
+
+    .paper>img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+
+    h1 {
+        /*height: 50px;
+        line-height: 50px;*/
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+        background-color: pink;
+        font-family: sans-serif, 'Times New Roman', Times, serif;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        max-width: 80%;
+        margin: auto;
+        text-align: left;
+        padding-left: 20px;
+        line-height: 1.7;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    .center {
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-left: 20px;
+        line-height: 1.7;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 250px;
+        padding-right: 250px;
+
+    }
+
+    h2 {
+        /* height: 30px;
+        line-height: 30px;*/
+        max-width: 50%;
+        margin: auto;
+        text-align: center;
+        background-color: wheat;
+        font-family: sans-serif, 'Times New Roman', Times, serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    em {
+        font-weight: bold;
+    }
+
+    .about {
+        max-width: 80%;
+        margin: auto;
+        text-align: left;
+        padding-left: 20px;
+        line-height: 1.7;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 70%;
+        padding-right: 100px;
+    }
+</style>
+
+<body>
+    <div class="paper">
+        <h1>內容產品規劃</h1>
+        <h2>主要模擬身分</h2>
+        <p>
+            • 產品負責人 (Product Owner) <br>
+            • 產品經理 (Product Manager, PM ) <br>
+            • 專案經理 (Project Manager, PJM) <br>
+            • 產品行銷經理 (Project Marketing Manager, PMM) <br>
+            • 產品設計師 (Product Designer)
+        </p>
+        <h2>常見的需求文件(Requirement Documents)</h2>
+        <p>
+            Business Requirement Documents (<a href="./content-html-pdf/BRD.jpg" target="_blank">BRD</a>) <br>
+            Market Requirement Documents (<a href="./content-html-pdf/mrd.jpg" target="_blank">MRD1</a>、
+            <a href="./content-html-pdf/mrd2.jpg" target="_blank">MRD2</a>、
+            <a href="./content-html-pdf/mrd3.jpg" target="_blank">MRD3</a>) <br>
+
+            Product Requirement Documents (<a href="./content-html-pdf/prd.jpg" target="_blank">PRD</a>) <br>
+            <a href="./content-html-pdf/all-doc.jpg" target="_blank">產品流程中所有的文件項目</a> <br>
+            <a href="./content-html-pdf/lixiang.jpg" target="_blank">理想的流程</a>
+        </p>
+        <h2>MRD Presentation</h2>
+        <p class="center"><a href="./content-html-pdf/Presentation-Format.pdf" target="_blank">Presentation Format =
+                Pitch Deck</a></p>
+        <p class="center"><a href="./content-html-pdf/MRD-Template.pdf" target="_blank">MRD Template</a></p>
+        <h2>身分定義 (溝通決策別)</h2>
+        <p>
+            • 老子有錢 (Sponsor) <br>
+            • 可以否決的人 (Approver) <br>
+            • 決定要發起的人 (Recommend) <br>
+            • 做好應該做不好活該(Accountable/Decide) <br>
+            • 動手做的人 (Responsible/Perform) <br>
+            • 你不跟他報告他會害你的人 (Informed) <br>
+            • 你不問他他會生氣的人 (Consulted/Input)
+        </p>
+        <h2>便利貼工作法</h2>
+        <p class="center">Miro：替代白報紙便利貼討論、有現成母版、有投票功能 </p>
+        <h2><a href="./content-html-pdf/elevator-pitch.jpg" target="_blank">Elevator Pitch</a></h2>
+        <h2>Templates from Top VCs</h2>
+        <p><a href="./content-html-pdf/sequoia.pdf" target="_blank"> Sequoia Capital</a>、
+            <a href="./content-html-pdf/500 Startups.pdf" target="_blank">500 Startups</a>、
+            <a href="./content-html-pdf/youtube.pdf" target="_blank"> 知名企業的募資簡報(YouTube)</a>、
+            <a href="./content-html-pdf/Airbnb.pdf" target="_blank"> 知名企業的募資簡報(Airbnb)</a>
+
+        </p>
+        <h2><a href="./content-html-pdf/jingjixue.jpg" target="_blank">網路內容產品的經濟學特性</a></h2>
+        <h2><a href="./content-html-pdf/core-parts.pdf" target="_blank">Core Parts of a MRD</a></h2>
+
+
+        <h1>Environmental Analysis</h1>
+        <h2>PEST</h2>
+        <p> 政治（Political）、經濟（Economic）、社會（Social）與科技（Technology）</p>
+        <p>
+            • Environmental Analysis<br>
+            • External Analysis<br>
+            • Opportunity and Threat in SWOT analysis</p>
+        <p>環境分析的特點：<br>
+            • 時間跨距長<br>
+            • 必須限定時間、空間、產業<br>
+            • 不一定對所有競爭者影響都一樣</p>
+        <p class="center"><a href="./content-html-pdf/pest-description.jpg" target="_blank">PEST 的描述</a></p>
+        <h2><a href="./content-html-pdf/politics.jpg" target="_blank">Political</a></h2>
+        <p><em>主要分析項目</em>：<br> • 相關政策<br> • 稅法與關稅<br> • 政府穩定度<br> • 進入市場的管制</p>
+        <h2><a href="./content-html-pdf/economics.jpg" target="_blank">Economic</a></h2>
+        <p><em>主要分析項目</em>：<br>• 通貨膨脹率<br> • 利率<br> • 消費者可支配收入<br> • 貸款環境<br> • 失業率<br> • 貨幣政策<br> • 匯率</p>
+        <h2><a href="./content-html-pdf/society.jpg" target="_blank">Social</a></h2>
+        <p><em>主要分析項目</em>：<br> • 生活型態<br> • 教育程度<br> • 貧富差距<br> • 文化衝突<br> •人口結構</p>
+        <h2><a href="./content-html-pdf/technology.jpg" target="_blank">Technology</a></h2>
+        <p><em>主要分析項目</em>：<br> • 產業內最近的科技進展<br> • 產業內產品迭代速率<br> • 產業內科技創新速率<br> • 產業內新創網路與平台</p>
+
+
+        <h1>5 Forces Analysis</h1>
+        <p>五力分析的特點：<br>
+            • 分析整個產業的競爭特性<br>
+            • 判斷市場的吸引程度<br>
+            • 決定要參加、要維持還是要落跑?<br>
+            • 跑不掉時該怎麼辦?<br>
+            • 市場太吸引人怎麼辦?<br>
+            • 辨識競爭環境中最需要解決的問題</p>
+        <p class="center"><a href="./content-html-pdf/xiaofeizhe.jpg" target="_blank">消費者</a>、
+            <a href="./content-html-pdf/tidaipin.jpg" target="_blank">替代品</a>、
+            <a href="./content-html-pdf/jingzhengzhe.jpg" target="_blank">競爭者</a>、
+            <a href="./content-html-pdf/gongyingshang.jpg" target="_blank">供應商</a>、
+            <a href="./content-html-pdf/qianzaijingzhengzhe.jpg" target="_blank">潛在競爭者</a>
+        </p>
+        <h1>SWOT</h1>
+        <h2> <a href="./content-html-pdf/vrio-framework.jpg" target="_blank">VRIO Framework</a></h2>
+        <p class="center">VRIO Framework: <a href="./content-html-pdf/value.jpg" target="_blank">Value</a> ->
+            <a href="./content-html-pdf/rarity.pdf" target="_blank">Rarity</a> ->
+            <a href="./content-html-pdf/imitability.pdf" target="_blank">Imitability</a> ->
+            <a href="./content-html-pdf/organization.jpg" target="_blank">Organization</a></p>
+        <h2>SWOT</h2>
+        <p class="center"><a href="./content-html-pdf/strength.jpg" target="_blank">Strength</a>、
+            <a href="./content-html-pdf/weakness.jpg" target="_blank">Weakness</a>、
+            <a href="./content-html-pdf/opportunity.jpg" target="_blank">Opportunity</a>、
+            <a href="./content-html-pdf/threat.jpg" target="_blank">Threat</a>
+            <br>
+            <a href="./content-html-pdf/WT.jpg" target="_blank">WT Strategy</a>、
+            <a href="./content-html-pdf/WO.jpg" target="_blank">WO Strategy</a>、
+            <a href="./content-html-pdf/ST.jpg" target="_blank">ST Strategy</a>、
+            <a href="./content-html-pdf/SO.jpg" target="_blank">SO Strategy</a>
+        </p>
+        <h1>Business Model (Canvas)</h1>
+        <h2>9Building Blocks</h2>
+        <p class="center"><a href="./content-html-pdf/Business-model-canvas.jpg" target="_blank">Business Model
+                Canvas</a>
+            <br>
+            <a href="./content-html-pdf/Customer.pdf" target="_blank">Customer</a>、
+            <a href="./content-html-pdf/Value-Proposition.pdf" target="_blank">Value Proposition</a>、
+            <a href="./content-html-pdf/Channels.pdf" target="_blank">Channels</a>、
+            <a href="./content-html-pdf/Customer-Relationship.pdf" target="_blank">Customer Relationship</a>、
+            <a href="./content-html-pdf/Revenue-Streams.pdf" target="_blank">Revenue Streams</a>、<br>
+            <a href="./content-html-pdf/Key-Resources.pdf" target="_blank">Key Resources</a>、
+            <a href="./content-html-pdf/Key-Activities.pdf" target="_blank">Key Activities</a>、
+            <a href="./content-html-pdf/key-Partnerships.pdf" target="_blank">Key Partnerships</a>、
+            <a href="./content-html-pdf/Cost-Structure.pdf" target="_blank">Cost Structure</a>
+        </p>
+        <h2>Using Business Model Canvas</h2>
+        <p class="center"><a href="./content-html-pdf/notice.jpg" target="_blank">注意事項</a>
+            <br>
+            <a href="./content-html-pdf/R25.pdf" target="_blank">R25</a>、
+            <a href="./content-html-pdf/iPod-iTunes.pdf" target="_blank">iPod+iTunes</a>
+            <br>
+            <a href="./content-html-pdf/piano-teacher.pdf" target="_blank">鋼琴老師的商業模式</a>
+
+        </p>
+        <h1>User Requirement Research</h1>
+        <p>使用者研究目的：瞭解使用者 -> 確認概念 -> 驗證產品</p>
+
+        <h2><a href="./content-html-pdf/Persona.pdf" target="_blank">Persona</a></h2>
+        <p>目的：避免把自己當使用者、避免太發散、避免太一般、避免太鑽牛角尖</p>
+        <p>
+            Types of Persona Creation：<br>
+            • Goal-directed Persona：依照任務區分的，探討任務用<br>
+            • Role-based Persona：從數據探索出來的探討角色用<br>
+            • Engaging Persona：透過劇本描述出來的、與製作者對話用<br>
+            • Fictional Persona：透過經驗直接描繪的
+        </p>
+
+        <h2><a href="./content-html-pdf/Brown-Cow-Model.jpg" target="_blank">Brown Cow Model</a></h2>
+
+        <h2><a href="./content-html-pdf/research-method.jpg" target="_blank">常見的研究方法</a>與<a
+                href="./content-html-pdf/before-research.jpg" target="_blank">開始研究之前</a>
+        </h2>
+
+        <h2>瞭解使用者</h2>
+        <p class="center">
+            <a href="./content-html-pdf/User-Survey.pdf" target="_blank">User Survey</a>、<a
+                href="./content-html-pdf/Diary.pdf" target="_blank">Diary</a>、<a
+                href="./content-html-pdf/anthropology.pdf" target="_blank">人類學</a>、<a
+                href="./content-html-pdf/contextual-inquiry.pdf" target="_blank">脈絡訪談</a>
+        </p>
+        <h2>確認概念</h2>
+        <p class="center">
+            <a href="./content-html-pdf/broken-stone.pdf" target="_blank">碎石子</a>、<a
+                href="./content-html-pdf/user-interview.pdf" target="_blank">User Interview</a>、<a
+                href="./content-html-pdf/Card-sorting.pdf" target="_blank">Card Sorting</a>（<a
+                href="./content-html-pdf/practice-card-sorting.pdf" target="_blank">練習</a>） 、<a
+                href="./content-html-pdf/focus-group.pdf" target="_blank">Focus Group</a>
+        </p>
+        <h2>驗證產品</h2>
+        <p class="center">
+            <a href="./content-html-pdf/Usability-test.pdf" target="_blank">可用性測試</a>、<a
+                href="./content-html-pdf/content-test.jpg" target="_blank">內容測試</a>、<a
+                href="./content-html-pdf/information-architecture.jpg" target="_blank">資訊架構認證</a>、<a
+                href="./content-html-pdf/a:b-test.pdf" target="_blank">A/B Test</a>
+        </p>
+        <h1>誰是使用者？</h1>
+        <p class="center">主要的使用者：<a href="./content-html-pdf/buyer.jpg" target="_blank">購買者</a>、<a
+                href="./content-html-pdf/user.jpg" target="_blank">使用者</a>、<a href="./content-html-pdf/maintainer.jpg"
+                target="_blank">產品維護者</a>、<a href="./content-html-pdf/supporter.jpg" target="_blank">產品支援者</a>、<a
+                href="./content-html-pdf/beneficiaries.jpg" target="_blank">受益者</a>、<a
+                href="./content-html-pdf/saboteur.jpg" target="_blank">受害者</a>
+        </p>
+        <p class="center">
+            <a href="./content-html-pdf/stakeholder.jpg" target="_blank">Stakeholder's Map</a>
+        </p>
+        <h2><a href="./content-html-pdf/Empathy-Map.pdf" target="_blank">Empathy Maps</a></h2>
+        <h2>Personality/Psychograpy</h2>
+        <p>常見的人格測驗：16 Personalities、StrengthFinder、DISC、Keirsey、HDBI BigFive
+            <br>
+            為什麼以心理測驗來協助分類? 建立共同的語言及標準、不用重新自己打造
+        </p>
+        <h1>Risk 風險管理</h1>
+        <p>產品開發前後可能常見的風險<br>
+            預算失控、團隊改組、市場變化過於快速
+        </p>
+        <h2>5 Risk Assessment</h2>
+        <p>MRD Level Risks <br>
+            • Market Risks <br>
+            – - What happens if the launch date is missed? <br>
+            – - What could competitors do that would change the market dyna mics? <br>
+            – - What could customers do that would change the market dyna mics? <br>
+            – - How could barriers to entry change? <br>
+            • Legal Risks <br>
+            • PR / Branding Risks
+        </p>
+        <p>風險評估：發生頻率、反應時間、損失幅度、處理能力</p>
+        <P>風險辨識來源：外部環境 SWOT 的 W/T、開發流程、營運流程 Negative User</P>
+        <p>風險等級 <br>
+
+            • Critical/high priority risks (規劃時應該不會發生) <br>
+            – - 立即行動<br>
+            • Major risks <br>
+            – - 管理階層督導、計畫 <br>
+            • Moderate risk <br>
+            – - 明訂管理階層責任範圍<br>
+            • Low risk<br>
+            – - 一般步驟處理<br>
+        </p>
+        <p>生前告別式 <br>
+            • 設定討論的目的 (MRD/PRD/Operation)<br>
+            • 分成功組與唱衰組討論<br>
+            • 兩組互相挑戰對方的論點<br>
+            • 投票選出最大的風險與機會<br>
+            • 討論如何避免最大的風險發生</p>
+        <p><a href="./content-html-pdf/Risk-check-table.pdf" target="_blank">風險評估表</a></p>
+        <h1>自我呈現與形象管理</h1>
+        <h2><a href="./content-html-pdf/theory.pdf" target="_blank">傳播理論實用篇</a></h2>
+        <h2><a href="./content-html-pdf/Business-Attire-for-men.pdf" target="_blank">Business-Attire-for-Men</a></h2>
+        <h2><a href="./content-html-pdf/Business-Attire-for-Women.pdf" target="_blank">Business-Attire-for-Women</a>
+        </h2>
+        <h1>User Journey</h1>
+        <h2><a href="./content-html-pdf/User-Journey.pdf" target="_blank">User Journey / Service Blueprint</a></h2>
+        <h2><a href="./content-html-pdf/User Journey phase.pdf" target="_blank">User Journey的階段</a></h2>
+        <h2><a href="./content-html-pdf/User Journey Grade.pdf" target="_blank">Journey的階層</a></h2>
+        <h2><a href="./content-html-pdf/User Goal.pdf" target="_blank">User Goal / Front Stage Activities</a></h2>
+        <h2><a href="./content-html-pdf/User Experience.pdf" target="_blank">User Experience</a></h2>
+        <h2><a href="./content-html-pdf/Service Structure.pdf" target="_blank">Service Structure</a></h2>
+        <h2><a href="./content-html-pdf/User Journey Extend.pdf" target="_blank">User Journey Extend</a></h2>
+
+        <h1>PRD Using Axure</h1>
+        <h2>PRD Format-<a href="./content-html-pdf/prd format.jpg" target="_blank">常見欄位</a></h2>
+
+        <h2>在Axure內完成PRD</h2>
+        <p class="center"><a href="./content-html-pdf/axure01.jpg" target="_blank">可以在Axure內完成的欄位</a></p>
+        <p class="center"><a href="./content-html-pdf/Axure02.pdf" target="_blank">以PRD為前提的Axuer</a></p>
+        <p class="center"><a href="./content-html-pdf/Axure03.pdf" target="_blank">Axuer快速PRD寫作</a></p>
+        <p class="center"><a href="./content-html-pdf/Example.pdf" target="_blank">Example</a></p>
+
+        <h1>Content Strategy</h1>
+        <h2>理論</h2>
+        <p class="center"><a href="./content-html-pdf/Active audience theory.pdf" target="_blank">主動閱聽人理論 Active
+                audience theory</a></p>
+        <p class="center"><a href="./content-html-pdf/Reception theory.pdf" target="_blank">接收理論 Reception theory</a>
+        </p>
+        <p class="center"><a href="./content-html-pdf/Uses and gratifications theory.pdf" target="_blank">使用與滿足理論 Uses
+                and gratifications theory</a></p>
+        <p class="center"><a href="./content-html-pdf/Mood Management Theory.pdf" target="_blank">情緒管理理論 Mood Management
+                Theory</a></p>
+
+        <h2>制定內容策略</h2>
+        <p class="center"><a href="./content-html-pdf/community.pdf" target="_blank">建立社群 / 什麼是社群</a></p>
+        <p class="center"><a href="./content-html-pdf/Commitment Curve.pdf" target="_blank">Commitment Curve</a></p>
+        <p class="center"><a href="./content-html-pdf/evaluate.pdf" target="_blank">設定評估方式</a></p>
+
+
+
+
+        <p class="center"><a href="./content-html-pdf/Level of Difficulty.pdf" target="_blank">Level of Difficulty</a>
+        </p>
+        <p class="center"><a href="./content-html-pdf/content topic.pdf" target="_blank">找尋社群內容主題</a></p>
+        <p class="center"><a href="./content-html-pdf/Event Calendar.pdf" target="_blank">Event Calendar</a></p>
+        <p class="center"><a href="./content-html-pdf/community topic.pdf" target="_blank">以社群為中心的主題</a></p>
+        <p class="center"><a href="./content-html-pdf/Editorial Voice.pdf" target="_blank">Editorial Voice</a></p>
+
+        <br>
+        <br><br><br>
+        <p class="about">Instroctor_李怡志 Richy Li <br>Student_閔瑞基</p>
+
+
+    </div>
+</body>
+
+</html>
