@@ -4,6 +4,11 @@ body {
     background-color: #f4f4f4;
   }
 
+.paper a:hover{
+    text-decoration: none;
+    color: crimson;
+    font-size: 130%;
+}
 
 
 .box{
